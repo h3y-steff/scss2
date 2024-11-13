@@ -1,0 +1,149 @@
+@use"partials/colors";
+@use"vendor/normalize";
+
+header
+    {
+    background-color: #150300;
+    height: 50px;
+    }
+
+.brand
+    {
+    background-color:#150300;
+    display: inline-block ;
+    padding: 14px;
+    padding-left: 50px;
+    font-weight: 600;
+    font-family: 'Arial';
+    font-size: large;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white
+    
+    }   
+
+nav
+    {
+    background-color:#150300;
+    display: inline-block;
+    padding: 15px; 
+    font-family: 'Arial';
+    text-transform: uppercase;
+    float:right;
+        a
+        {
+            list-style: none;
+            padding: 5px;
+            text-decoration: none;
+            color: white;
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: small;
+            font-weight: 100;
+    
+        }
+    }  
+    
+.our-story 
+    {
+    display: inline-block;
+    }
+
+     p
+    {
+    float: left;
+     }
+
+     .story-content, .story-image{
+        display:inline-block;
+        margin-inline: 90px;
+        margin-top: 60px;
+    }
+    .story-content{
+        width: 200px;
+        text-align: center;
+    }
+    .story-content img {
+        width: 10px;
+        height: 10px;
+    }
+    .story-content p{
+        margin-top: 1px;
+    }
+    .story-content a { 
+        color: orange;
+        font-family: "verdana";
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size:x-small
+        
+    }
+    .story-image{
+        float: right;
+    }
+    
+    .story-content{
+        width: 200px;
+        text-align: center;
+    }
+    .story-content h2 {
+        font-weight: 100;
+        font-family: "brush script mt";
+        height: 2px;
+        color:colors.$secondary-font-color;
+        
+    }
+    .story-content h3{
+        text-transform: uppercase;
+        font-family: "Verdana";
+        font-size: x-large;
+        font-weight: 600;
+        height: 2px;
+        color: colors.$primary-font-color;
+    }
+
+    h3 
+    {
+    text-transform: uppercase;
+    font-family: "Verdana";
+    font-size: x-large;
+    font-weight: 600;
+    height: 2px;
+    color: colors.$primary-font-color;
+    }
+    
+
+    .star 
+    {
+        width: 10px;
+        height: 10px;
+      }
+
+
+.coffee{
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+    p
+    {   
+    margin-top: 1px;
+    margin-bottom:50px;
+    }
+        
+    a
+    {
+    color:colors.$secondary-font-color;
+    font-family: "verdana";
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:x-small;
+    text-decoration: none;
+    }
+
+footer{
+    background-color:colors.$dark-background;
+    color: white;
+    padding: 15px;
+    margin-top: 100px;
+}
